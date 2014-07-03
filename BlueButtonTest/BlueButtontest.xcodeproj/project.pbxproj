@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0ACF5DE1515686C005CF54B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0ACF5DD1515686C005CF54B /* Cocoa.framework */; };
+		D0ACF5E81515686C005CF54B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0ACF5E61515686C005CF54B /* InfoPlist.strings */; };
+		D0ACF5EA1515686C005CF54B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ACF5E91515686C005CF54B /* main.m */; };
+		D0ACF5EE1515686C005CF54B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D0ACF5EC1515686C005CF54B /* Credits.rtf */; };
+		D0ACF5F11515686C005CF54B /* PXCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ACF5F01515686C005CF54B /* PXCAppDelegate.m */; };
+		D0ACF5F41515686C005CF54B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0ACF5F21515686C005CF54B /* MainMenu.xib */; };
+		D0ACF60C1516193D005CF54B /* PXCBlueButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ACF60B1516193D005CF54B /* PXCBlueButton.m */; };
+		D0ACF61315161AFC005CF54B /* PXCBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ACF61215161AFC005CF54B /* PXCBackgroundView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0ACF5D91515686C005CF54B /* BlueButtontest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueButtontest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0ACF5DD1515686C005CF54B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D0ACF5E01515686C005CF54B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D0ACF5E11515686C005CF54B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D0ACF5E21515686C005CF54B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0ACF5E51515686C005CF54B /* BlueButtontest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlueButtontest-Info.plist"; sourceTree = "<group>"; };
+		D0ACF5E71515686C005CF54B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0ACF5E91515686C005CF54B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0ACF5EB1515686C005CF54B /* BlueButtontest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlueButtontest-Prefix.pch"; sourceTree = "<group>"; };
+		D0ACF5ED1515686C005CF54B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D0ACF5EF1515686C005CF54B /* PXCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PXCAppDelegate.h; sourceTree = "<group>"; };
+		D0ACF5F01515686C005CF54B /* PXCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXCAppDelegate.m; sourceTree = "<group>"; };
+		D0ACF5F31515686C005CF54B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D0ACF60A1516193D005CF54B /* PXCBlueButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXCBlueButton.h; sourceTree = "<group>"; };
+		D0ACF60B1516193D005CF54B /* PXCBlueButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXCBlueButton.m; sourceTree = "<group>"; };
+		D0ACF61115161AFC005CF54B /* PXCBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXCBackgroundView.h; sourceTree = "<group>"; };
+		D0ACF61215161AFC005CF54B /* PXCBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXCBackgroundView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0ACF5D61515686C005CF54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0ACF5DE1515686C005CF54B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0ACF5CE1515686C005CF54B = {
+			isa = PBXGroup;
+			children = (
+				D0ACF5E31515686C005CF54B /* BlueButtontest */,
+				D0ACF5DC1515686C005CF54B /* Frameworks */,
+				D0ACF5DA1515686C005CF54B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0ACF5DA1515686C005CF54B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0ACF5D91515686C005CF54B /* BlueButtontest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0ACF5DC1515686C005CF54B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0ACF5DD1515686C005CF54B /* Cocoa.framework */,
+				D0ACF5DF1515686C005CF54B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0ACF5DF1515686C005CF54B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0ACF5E01515686C005CF54B /* AppKit.framework */,
+				D0ACF5E11515686C005CF54B /* CoreData.framework */,
+				D0ACF5E21515686C005CF54B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D0ACF5E31515686C005CF54B /* BlueButtontest */ = {
+			isa = PBXGroup;
+			children = (
+				D0ACF5EF1515686C005CF54B /* PXCAppDelegate.h */,
+				D0ACF5F01515686C005CF54B /* PXCAppDelegate.m */,
+				D0ACF60A1516193D005CF54B /* PXCBlueButton.h */,
+				D0ACF60B1516193D005CF54B /* PXCBlueButton.m */,
+				D0ACF61115161AFC005CF54B /* PXCBackgroundView.h */,
+				D0ACF61215161AFC005CF54B /* PXCBackgroundView.m */,
+				D0ACF5F21515686C005CF54B /* MainMenu.xib */,
+				D0ACF5E41515686C005CF54B /* Supporting Files */,
+			);
+			path = BlueButtontest;
+			sourceTree = "<group>";
+		};
+		D0ACF5E41515686C005CF54B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0ACF5E51515686C005CF54B /* BlueButtontest-Info.plist */,
+				D0ACF5E61515686C005CF54B /* InfoPlist.strings */,
+				D0ACF5E91515686C005CF54B /* main.m */,
+				D0ACF5EB1515686C005CF54B /* BlueButtontest-Prefix.pch */,
+				D0ACF5EC1515686C005CF54B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0ACF5D81515686C005CF54B /* BlueButtontest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0ACF5F71515686C005CF54B /* Build configuration list for PBXNativeTarget "BlueButtontest" */;
+			buildPhases = (
+				D0ACF5D51515686C005CF54B /* Sources */,
+				D0ACF5D61515686C005CF54B /* Frameworks */,
+				D0ACF5D71515686C005CF54B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueButtontest;
+			productName = BlueButtontest;
+			productReference = D0ACF5D91515686C005CF54B /* BlueButtontest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0ACF5D01515686C005CF54B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PXC;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "SUNTEQ s.r.o.";
+			};
+			buildConfigurationList = D0ACF5D31515686C005CF54B /* Build configuration list for PBXProject "BlueButtontest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0ACF5CE1515686C005CF54B;
+			productRefGroup = D0ACF5DA1515686C005CF54B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0ACF5D81515686C005CF54B /* BlueButtontest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0ACF5D71515686C005CF54B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0ACF5E81515686C005CF54B /* InfoPlist.strings in Resources */,
+				D0ACF5EE1515686C005CF54B /* Credits.rtf in Resources */,
+				D0ACF5F41515686C005CF54B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0ACF5D51515686C005CF54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0ACF5EA1515686C005CF54B /* main.m in Sources */,
+				D0ACF5F11515686C005CF54B /* PXCAppDelegate.m in Sources */,
+				D0ACF60C1516193D005CF54B /* PXCBlueButton.m in Sources */,
+				D0ACF61315161AFC005CF54B /* PXCBackgroundView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0ACF5E61515686C005CF54B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0ACF5E71515686C005CF54B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0ACF5EC1515686C005CF54B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0ACF5ED1515686C005CF54B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D0ACF5F21515686C005CF54B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0ACF5F31515686C005CF54B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0ACF5F51515686C005CF54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D0ACF5F61515686C005CF54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D0ACF5F81515686C005CF54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlueButtontest/BlueButtontest-Prefix.pch";
+				INFOPLIST_FILE = "BlueButtontest/BlueButtontest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0ACF5F91515686C005CF54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlueButtontest/BlueButtontest-Prefix.pch";
+				INFOPLIST_FILE = "BlueButtontest/BlueButtontest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0ACF5D31515686C005CF54B /* Build configuration list for PBXProject "BlueButtontest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0ACF5F51515686C005CF54B /* Debug */,
+				D0ACF5F61515686C005CF54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0ACF5F71515686C005CF54B /* Build configuration list for PBXNativeTarget "BlueButtontest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0ACF5F81515686C005CF54B /* Debug */,
+				D0ACF5F91515686C005CF54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0ACF5D01515686C005CF54B /* Project object */;
+}
