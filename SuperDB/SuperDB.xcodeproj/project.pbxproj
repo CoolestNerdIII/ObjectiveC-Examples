@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		693DFA5317B0462D0066E5F3 /* PowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 693DFA5217B0462C0066E5F3 /* PowerViewController.m */; };
+		693DFA5517B046860066E5F3 /* PowerViewConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 693DFA5417B046860066E5F3 /* PowerViewConfiguration.plist */; };
+		693DFA5817B047FA0066E5F3 /* HeroReportController.m in Sources */ = {isa = PBXBuildFile; fileRef = 693DFA5717B047FA0066E5F3 /* HeroReportController.m */; };
+		69805E4817AF50B500CD0B24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69805E4717AF50B500CD0B24 /* UIKit.framework */; };
+		69805E4A17AF50B500CD0B24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69805E4917AF50B500CD0B24 /* Foundation.framework */; };
+		69805E4C17AF50B500CD0B24 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69805E4B17AF50B500CD0B24 /* CoreGraphics.framework */; };
+		69805E4E17AF50B500CD0B24 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69805E4D17AF50B500CD0B24 /* CoreData.framework */; };
+		69805E5417AF50B500CD0B24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69805E5217AF50B500CD0B24 /* InfoPlist.strings */; };
+		69805E5617AF50B500CD0B24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69805E5517AF50B500CD0B24 /* main.m */; };
+		69805E5A17AF50B500CD0B24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69805E5917AF50B500CD0B24 /* AppDelegate.m */; };
+		69805E5C17AF50B500CD0B24 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 69805E5B17AF50B500CD0B24 /* Default.png */; };
+		69805E5E17AF50B500CD0B24 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69805E5D17AF50B500CD0B24 /* Default@2x.png */; };
+		69805E6017AF50B500CD0B24 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69805E5F17AF50B500CD0B24 /* Default-568h@2x.png */; };
+		69805E6317AF50B500CD0B24 /* SuperDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69805E6117AF50B500CD0B24 /* SuperDB.xcdatamodeld */; };
+		69805E6A17AF511700CD0B24 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69805E6917AF511700CD0B24 /* Storyboard.storyboard */; };
+		69805E6D17AF549300CD0B24 /* HeroListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69805E6C17AF549300CD0B24 /* HeroListController.m */; };
+		69805E7017AFE63400CD0B24 /* ManagedObjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69805E6F17AFE63400CD0B24 /* ManagedObjectController.m */; };
+		69805E7217AFE90500CD0B24 /* HeroDetailConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 69805E7117AFE90500CD0B24 /* HeroDetailConfiguration.plist */; };
+		69805E7517AFF1F100CD0B24 /* SuperDBEditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69805E7417AFF1F100CD0B24 /* SuperDBEditCell.m */; };
+		69805E7B17AFF66900CD0B24 /* SuperDBDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69805E7A17AFF66900CD0B24 /* SuperDBDateCell.m */; };
+		69805E7E17AFF86F00CD0B24 /* SuperDBPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69805E7D17AFF86F00CD0B24 /* SuperDBPickerCell.m */; };
+		69805E8517B00DE700CD0B24 /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 69805E8417B00DE700CD0B24 /* Hero.m */; };
+		69805E8817B014C800CD0B24 /* SuperDBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69805E8717B014C800CD0B24 /* SuperDBCell.m */; };
+		69805E8B17B01A7500CD0B24 /* UIColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 69805E8A17B01A7500CD0B24 /* UIColorPicker.m */; };
+		69805E8E17B01B8200CD0B24 /* SuperDBColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69805E8D17B01B8200CD0B24 /* SuperDBColorCell.m */; };
+		69805E9017B02D1700CD0B24 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69805E8F17B02D1700CD0B24 /* QuartzCore.framework */; };
+		69805E9217B02E8400CD0B24 /* CoreDataErrors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 69805E9117B02E8400CD0B24 /* CoreDataErrors.plist */; };
+		69805E9617B0380800CD0B24 /* ManagedObjectConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 69805E9517B0380800CD0B24 /* ManagedObjectConfiguration.m */; };
+		69805E9917B0449E00CD0B24 /* HeroDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69805E9817B0449E00CD0B24 /* HeroDetailController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		693DFA5117B0462C0066E5F3 /* PowerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerViewController.h; sourceTree = "<group>"; };
+		693DFA5217B0462C0066E5F3 /* PowerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PowerViewController.m; sourceTree = "<group>"; };
+		693DFA5417B046860066E5F3 /* PowerViewConfiguration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PowerViewConfiguration.plist; sourceTree = "<group>"; };
+		693DFA5617B047FA0066E5F3 /* HeroReportController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroReportController.h; sourceTree = "<group>"; };
+		693DFA5717B047FA0066E5F3 /* HeroReportController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroReportController.m; sourceTree = "<group>"; };
+		69805E4417AF50B500CD0B24 /* SuperDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69805E4717AF50B500CD0B24 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		69805E4917AF50B500CD0B24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		69805E4B17AF50B500CD0B24 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		69805E4D17AF50B500CD0B24 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		69805E5117AF50B500CD0B24 /* SuperDB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperDB-Info.plist"; sourceTree = "<group>"; };
+		69805E5317AF50B500CD0B24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		69805E5517AF50B500CD0B24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69805E5717AF50B500CD0B24 /* SuperDB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SuperDB-Prefix.pch"; sourceTree = "<group>"; };
+		69805E5817AF50B500CD0B24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		69805E5917AF50B500CD0B24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		69805E5B17AF50B500CD0B24 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		69805E5D17AF50B500CD0B24 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		69805E5F17AF50B500CD0B24 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		69805E6217AF50B500CD0B24 /* SuperDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SuperDB.xcdatamodel; sourceTree = "<group>"; };
+		69805E6917AF511700CD0B24 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		69805E6B17AF549300CD0B24 /* HeroListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroListController.h; sourceTree = "<group>"; };
+		69805E6C17AF549300CD0B24 /* HeroListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroListController.m; sourceTree = "<group>"; };
+		69805E6E17AFE63400CD0B24 /* ManagedObjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagedObjectController.h; sourceTree = "<group>"; };
+		69805E6F17AFE63400CD0B24 /* ManagedObjectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagedObjectController.m; sourceTree = "<group>"; };
+		69805E7117AFE90500CD0B24 /* HeroDetailConfiguration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HeroDetailConfiguration.plist; sourceTree = "<group>"; };
+		69805E7317AFF1F100CD0B24 /* SuperDBEditCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperDBEditCell.h; sourceTree = "<group>"; };
+		69805E7417AFF1F100CD0B24 /* SuperDBEditCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperDBEditCell.m; sourceTree = "<group>"; };
+		69805E7917AFF66900CD0B24 /* SuperDBDateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperDBDateCell.h; sourceTree = "<group>"; };
+		69805E7A17AFF66900CD0B24 /* SuperDBDateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperDBDateCell.m; sourceTree = "<group>"; };
+		69805E7C17AFF86F00CD0B24 /* SuperDBPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperDBPickerCell.h; sourceTree = "<group>"; };
+		69805E7D17AFF86F00CD0B24 /* SuperDBPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperDBPickerCell.m; sourceTree = "<group>"; };
+		69805E7F17B002FE00CD0B24 /* SuperDB 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "SuperDB 2.xcdatamodel"; sourceTree = "<group>"; };
+		69805E8317B00DE700CD0B24 /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
+		69805E8417B00DE700CD0B24 /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
+		69805E8617B014C800CD0B24 /* SuperDBCell.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.h; path = SuperDBCell.h; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; wrapsLines = 1; };
+		69805E8717B014C800CD0B24 /* SuperDBCell.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; path = SuperDBCell.m; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; wrapsLines = 1; };
+		69805E8917B01A7500CD0B24 /* UIColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorPicker.h; sourceTree = "<group>"; };
+		69805E8A17B01A7500CD0B24 /* UIColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorPicker.m; sourceTree = "<group>"; };
+		69805E8C17B01B8200CD0B24 /* SuperDBColorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperDBColorCell.h; sourceTree = "<group>"; };
+		69805E8D17B01B8200CD0B24 /* SuperDBColorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperDBColorCell.m; sourceTree = "<group>"; };
+		69805E8F17B02D1700CD0B24 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		69805E9117B02E8400CD0B24 /* CoreDataErrors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CoreDataErrors.plist; sourceTree = "<group>"; };
+		69805E9317B0329A00CD0B24 /* SuperDB 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "SuperDB 3.xcdatamodel"; sourceTree = "<group>"; };
+		69805E9417B0380800CD0B24 /* ManagedObjectConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagedObjectConfiguration.h; sourceTree = "<group>"; };
+		69805E9517B0380800CD0B24 /* ManagedObjectConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagedObjectConfiguration.m; sourceTree = "<group>"; };
+		69805E9717B0449E00CD0B24 /* HeroDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroDetailController.h; sourceTree = "<group>"; };
+		69805E9817B0449E00CD0B24 /* HeroDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroDetailController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69805E4117AF50B500CD0B24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69805E9017B02D1700CD0B24 /* QuartzCore.framework in Frameworks */,
+				69805E4817AF50B500CD0B24 /* UIKit.framework in Frameworks */,
+				69805E4A17AF50B500CD0B24 /* Foundation.framework in Frameworks */,
+				69805E4C17AF50B500CD0B24 /* CoreGraphics.framework in Frameworks */,
+				69805E4E17AF50B500CD0B24 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69805E3B17AF50B500CD0B24 = {
+			isa = PBXGroup;
+			children = (
+				69805E4F17AF50B500CD0B24 /* SuperDB */,
+				69805E4617AF50B500CD0B24 /* Frameworks */,
+				69805E4517AF50B500CD0B24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69805E4517AF50B500CD0B24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69805E4417AF50B500CD0B24 /* SuperDB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69805E4617AF50B500CD0B24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69805E8F17B02D1700CD0B24 /* QuartzCore.framework */,
+				69805E4717AF50B500CD0B24 /* UIKit.framework */,
+				69805E4917AF50B500CD0B24 /* Foundation.framework */,
+				69805E4B17AF50B500CD0B24 /* CoreGraphics.framework */,
+				69805E4D17AF50B500CD0B24 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69805E4F17AF50B500CD0B24 /* SuperDB */ = {
+			isa = PBXGroup;
+			children = (
+				69805E8217B0032B00CD0B24 /* Delegate */,
+				69805E6917AF511700CD0B24 /* Storyboard.storyboard */,
+				69805E8117B0032400CD0B24 /* Controllers */,
+				69805E8017B0031600CD0B24 /* Cells */,
+				69805E7117AFE90500CD0B24 /* HeroDetailConfiguration.plist */,
+				693DFA5417B046860066E5F3 /* PowerViewConfiguration.plist */,
+				69805E9117B02E8400CD0B24 /* CoreDataErrors.plist */,
+				69805E8917B01A7500CD0B24 /* UIColorPicker.h */,
+				69805E8A17B01A7500CD0B24 /* UIColorPicker.m */,
+				69805E8317B00DE700CD0B24 /* Hero.h */,
+				69805E8417B00DE700CD0B24 /* Hero.m */,
+				69805E6117AF50B500CD0B24 /* SuperDB.xcdatamodeld */,
+				69805E5017AF50B500CD0B24 /* Supporting Files */,
+			);
+			path = SuperDB;
+			sourceTree = "<group>";
+		};
+		69805E5017AF50B500CD0B24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69805E5117AF50B500CD0B24 /* SuperDB-Info.plist */,
+				69805E5217AF50B500CD0B24 /* InfoPlist.strings */,
+				69805E5517AF50B500CD0B24 /* main.m */,
+				69805E5717AF50B500CD0B24 /* SuperDB-Prefix.pch */,
+				69805E5B17AF50B500CD0B24 /* Default.png */,
+				69805E5D17AF50B500CD0B24 /* Default@2x.png */,
+				69805E5F17AF50B500CD0B24 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69805E8017B0031600CD0B24 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				69805E8617B014C800CD0B24 /* SuperDBCell.h */,
+				69805E8717B014C800CD0B24 /* SuperDBCell.m */,
+				69805E7317AFF1F100CD0B24 /* SuperDBEditCell.h */,
+				69805E7417AFF1F100CD0B24 /* SuperDBEditCell.m */,
+				69805E7917AFF66900CD0B24 /* SuperDBDateCell.h */,
+				69805E7A17AFF66900CD0B24 /* SuperDBDateCell.m */,
+				69805E7C17AFF86F00CD0B24 /* SuperDBPickerCell.h */,
+				69805E7D17AFF86F00CD0B24 /* SuperDBPickerCell.m */,
+				69805E8C17B01B8200CD0B24 /* SuperDBColorCell.h */,
+				69805E8D17B01B8200CD0B24 /* SuperDBColorCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		69805E8117B0032400CD0B24 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				69805E6B17AF549300CD0B24 /* HeroListController.h */,
+				69805E6C17AF549300CD0B24 /* HeroListController.m */,
+				69805E9717B0449E00CD0B24 /* HeroDetailController.h */,
+				69805E9817B0449E00CD0B24 /* HeroDetailController.m */,
+				69805E6E17AFE63400CD0B24 /* ManagedObjectController.h */,
+				69805E6F17AFE63400CD0B24 /* ManagedObjectController.m */,
+				69805E9417B0380800CD0B24 /* ManagedObjectConfiguration.h */,
+				69805E9517B0380800CD0B24 /* ManagedObjectConfiguration.m */,
+				693DFA5117B0462C0066E5F3 /* PowerViewController.h */,
+				693DFA5217B0462C0066E5F3 /* PowerViewController.m */,
+				693DFA5617B047FA0066E5F3 /* HeroReportController.h */,
+				693DFA5717B047FA0066E5F3 /* HeroReportController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		69805E8217B0032B00CD0B24 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				69805E5817AF50B500CD0B24 /* AppDelegate.h */,
+				69805E5917AF50B500CD0B24 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69805E4317AF50B500CD0B24 /* SuperDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69805E6617AF50B500CD0B24 /* Build configuration list for PBXNativeTarget "SuperDB" */;
+			buildPhases = (
+				69805E4017AF50B500CD0B24 /* Sources */,
+				69805E4117AF50B500CD0B24 /* Frameworks */,
+				69805E4217AF50B500CD0B24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperDB;
+			productName = SuperDB;
+			productReference = 69805E4417AF50B500CD0B24 /* SuperDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69805E3C17AF50B500CD0B24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "TnT Development";
+			};
+			buildConfigurationList = 69805E3F17AF50B500CD0B24 /* Build configuration list for PBXProject "SuperDB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 69805E3B17AF50B500CD0B24;
+			productRefGroup = 69805E4517AF50B500CD0B24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69805E4317AF50B500CD0B24 /* SuperDB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69805E4217AF50B500CD0B24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69805E5417AF50B500CD0B24 /* InfoPlist.strings in Resources */,
+				69805E5C17AF50B500CD0B24 /* Default.png in Resources */,
+				69805E5E17AF50B500CD0B24 /* Default@2x.png in Resources */,
+				69805E6017AF50B500CD0B24 /* Default-568h@2x.png in Resources */,
+				69805E6A17AF511700CD0B24 /* Storyboard.storyboard in Resources */,
+				69805E7217AFE90500CD0B24 /* HeroDetailConfiguration.plist in Resources */,
+				69805E9217B02E8400CD0B24 /* CoreDataErrors.plist in Resources */,
+				693DFA5517B046860066E5F3 /* PowerViewConfiguration.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69805E4017AF50B500CD0B24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69805E5617AF50B500CD0B24 /* main.m in Sources */,
+				69805E5A17AF50B500CD0B24 /* AppDelegate.m in Sources */,
+				69805E6317AF50B500CD0B24 /* SuperDB.xcdatamodeld in Sources */,
+				69805E6D17AF549300CD0B24 /* HeroListController.m in Sources */,
+				69805E7017AFE63400CD0B24 /* ManagedObjectController.m in Sources */,
+				69805E7517AFF1F100CD0B24 /* SuperDBEditCell.m in Sources */,
+				69805E7B17AFF66900CD0B24 /* SuperDBDateCell.m in Sources */,
+				69805E7E17AFF86F00CD0B24 /* SuperDBPickerCell.m in Sources */,
+				69805E8517B00DE700CD0B24 /* Hero.m in Sources */,
+				69805E8817B014C800CD0B24 /* SuperDBCell.m in Sources */,
+				69805E8B17B01A7500CD0B24 /* UIColorPicker.m in Sources */,
+				69805E8E17B01B8200CD0B24 /* SuperDBColorCell.m in Sources */,
+				69805E9617B0380800CD0B24 /* ManagedObjectConfiguration.m in Sources */,
+				69805E9917B0449E00CD0B24 /* HeroDetailController.m in Sources */,
+				693DFA5317B0462D0066E5F3 /* PowerViewController.m in Sources */,
+				693DFA5817B047FA0066E5F3 /* HeroReportController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		69805E5217AF50B500CD0B24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69805E5317AF50B500CD0B24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69805E6417AF50B500CD0B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		69805E6517AF50B500CD0B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69805E6717AF50B500CD0B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperDB/SuperDB-Prefix.pch";
+				INFOPLIST_FILE = "SuperDB/SuperDB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		69805E6817AF50B500CD0B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperDB/SuperDB-Prefix.pch";
+				INFOPLIST_FILE = "SuperDB/SuperDB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69805E3F17AF50B500CD0B24 /* Build configuration list for PBXProject "SuperDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69805E6417AF50B500CD0B24 /* Debug */,
+				69805E6517AF50B500CD0B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69805E6617AF50B500CD0B24 /* Build configuration list for PBXNativeTarget "SuperDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69805E6717AF50B500CD0B24 /* Debug */,
+				69805E6817AF50B500CD0B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		69805E6117AF50B500CD0B24 /* SuperDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				69805E7F17B002FE00CD0B24 /* SuperDB 2.xcdatamodel */,
+				69805E6217AF50B500CD0B24 /* SuperDB.xcdatamodel */,
+				69805E9317B0329A00CD0B24 /* SuperDB 3.xcdatamodel */,
+			);
+			currentVersion = 69805E6217AF50B500CD0B24 /* SuperDB.xcdatamodel */;
+			path = SuperDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 69805E3C17AF50B500CD0B24 /* Project object */;
+}

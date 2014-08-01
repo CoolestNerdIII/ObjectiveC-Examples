@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>72A3EDBB-CBEE-46D3-BFE6-EB20E058E9C1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TableEditting</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AC73F953-E19D-4203-BFB6-10E6B2DC2E1A</key>
+		<string>https://www.github.com/CoolestNerdIII/Ultimate-Converter.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TableEditting/TableEditting.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AC73F953-E19D-4203-BFB6-10E6B2DC2E1A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://www.github.com/CoolestNerdIII/Ultimate-Converter.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AC73F953-E19D-4203-BFB6-10E6B2DC2E1A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AC73F953-E19D-4203-BFB6-10E6B2DC2E1A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Development</string>
+		</dict>
+	</array>
+</dict>
+</plist>
